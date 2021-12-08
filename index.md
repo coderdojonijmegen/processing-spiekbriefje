@@ -11,7 +11,9 @@ Spiekbriefje met veelgebruikte Processing instructies.
 
 <!--more-->
 
-Het spiekbriefje is ook [als PDF](Processing_spiekbriefje.pdf) te downloaden.
+Het spiekbriefje is ook als [Processing_spiekbriefje.pdf](Processing_spiekbriefje.pdf) te downloaden.
+En we hebben [Processing3-Coderdojo-Nm.pdf](Processing3-Coderdojo-Nm.pdf) met instructies om kunst te maken
+op de computer.
 
 ## Basis van een Processing-script
 
