@@ -7,13 +7,13 @@ headercolor: "teal-background"
 taal: processing 
 ---
 
-Spiekbriefje met veelgebruikte Processing instructies.
+Spiekbriefje met veelgebruikte Processing-instructies.
 
 <!--more-->
 
 Het spiekbriefje is ook als [Processing_spiekbriefje.pdf](Processing_spiekbriefje.pdf) te downloaden.
-En we hebben [Processing3-Coderdojo-Nm.pdf](Processing3-Coderdojo-Nm.pdf) met instructies om kunst te maken
-op de computer.
+
+Als je eerst nog wat meer uitleg wil over kunst maken met Processing, kun je deze uitleg downloaden: [Processing3-Coderdojo-Nm.pdf](Processing3-Coderdojo-Nm.pdf).
 
 ## Basis van een Processing-script
 
@@ -232,25 +232,47 @@ Mooie voorbeelden van wat er allemaal kan met Processing zie je op
 
 ## Probeer het!
 
-* Maak een vierkant dat steeds opnieuw getekend wordt op de plek van je muis. Teken
-steeds een nieuwe achtergrond in draw() met een kleur die verandert met de
-muispositie.
-* Teken een puntje op de plek waar de muis is. Zet geen background() in draw().
-* Teken een stuk of 10 vierkantjes onder elkaar. Laat ze horizontaal mee-veranderen met
-de muispositie mee, maar zorg dat elk streepje anders reageert. (tip: je kunt getallen bij
-mouseX optellen, maar mouseX ook vermenigvuldigen en delen!)
-* Maak confetti! Teken steeds een nieuwe kleine cirkel op steeds een andere plek met
-steeds een andere kleur. (Tip: gebruik random() voor de x- en y-positie én voor de
-kleuren. Probeer ook een donkere achtergrond!)
-* Teken een bijna helemaal doorzichtig rondje met een dikke, gekleurde rand.
-* Teken een rechthoek op de plek van je muis. Verbind de hoogte en breedte ook aan je
-muis. Kun je een tweede rechthoek maken die in omgekeerde richting beweegt?
-* Teken een cirkel die van kleur verandert als je dichterbij komt.
-* Teken 8 cirkels die in elkaar zitten. (tip: gebruik een while-loop)
-* Teken een bijna helemaal doorzichtige lijn helemaal van bovenaan het scherm naar
-onderaan.
-* Gebruik een variabele om een vorm steeds een stapje verderop te laten bewegen.
-Gebruik dezelfde variabele ook om de positie, grootte en kleur te veranderen.
+1. Maak een vierkant dat steeds opnieuw getekend wordt op de plek van je muis. Teken steeds een nieuwe achtergrond in draw() met een kleur die verandert met de muispositie.
+
+2. Teken een puntje op de plek waar de muis is. Zet geen background() in draw(). Probeer het ook met andere vormen en kleuren, ook met half-doorzichtige.
+Kun je een tweede vorm maken die in omgekeerde richting beweegt?
+
+3. Teken een vorm die van heel klein steeds een beetje groter wordt (met een variabele, niet op basis van de muis). Laat hem opnieuw klein beginnen als je op de muis klikt óf als hij groter wordt dan de breedte van het scherm.
+Gebruik dezelfde variabele ook om de positie en kleur te veranderen.
+
+4. Teken een stuk of 10 vierkantjes onder elkaar. Laat ze horizontaal mee-veranderen met de muispositie, maar zorg dat elk vierkantje dat nèt iets anders doet. (Tip: je kunt getallen bij mouseX optellen, maar mouseX ook vermenigvuldigen en delen! Vermenigvulden doe je met * en delen met /.)
+
+5. Maak confetti! Teken steeds een nieuwe kleine cirkel op steeds een andere plek met steeds een andere kleur. (Tip: gebruik random() voor de x- en y-positie én voor de kleuren. Probeer ook een donkere achtergrond!)
+
+6. Teken een bijna helemaal doorzichtig rondje met dikke rand op een lichte achtergrond. Teken die achtergrond niet in draw().
+
+7. Maak een bloem met overlappende cirkels!
+
+8. Schrijf een woord steeds ergens anders op het scherm, met steeds een andere kleur.
+
+9. Schrijf smileys met tekst (:-)) met een gele cirkel eromheen, steeds op een andere plek.
+(Probeer het eerst op de simpelste manier. Als je daarna ook nog translate() en rotate() gebruikt, dan kun je de smileys ook nog om hun as laten draaien!)
+
+10. Teken een vorm die steeds van plek verandert. Als hij bij de randen aankomt, laat hem dan van kleur veranderen en een andere kant op gaan. (Hier heb je variabelen bij nodig om de x- en y-positie van je vorm op te slaan, en een paar if-statements.)
+
+11. Teken twee vormen naast elkaar. De grootte van de ene is afhankelijk van de muispositie, die van de andere van de muispositie min ongeveer de helft van de breedte van het scherm.
+
+12. Teken een cirkel die van kleur verandert als je dichterbij komt. (Tip: dit is het makkelijkst met dist().)
+
+13. Teken 8 cirkels die in elkaar zitten. (Tip: gebruik een while-loop of for-loop.)
+
+14. Maak een spiraal! Gebruik translate() en rotate() om vormen niet alleen verder weg te laten bewegen, maar ook steeds verder van een middelpunt af te tekenen.
+
+15. Teken een bijna helemaal doorzichtige lijn helemaal van bovenaan het scherm naar onderaan. Gebruik je muis als horizontale positie. Teken geen achtergrond in draw().
+
+16. Verplaats het beginpunt van je canvas naar ergens met translate(), laat het canvas steeds een klein beetje ronddraaien met rotate() en teken een of meer rechthoeken.
+
+17. Teken heel veel kleine rondjes naast elkaar en verander elke keer de kleur een klein beetje. Probeer ze in een cirkel te laten tekenen met rotate()!
+
+18. Teken meerdere vormen waarvan je de positie (of draaiing) met een sinus-functie bepaalt.
+
+19. Maak een soort zon door driehoeken en lijnen rond een middelpunt te tekenen. (Tip: gebruik translate() en rotate().)
+
 
 Verder variëren met
 * Vorm
@@ -258,8 +280,12 @@ Verder variëren met
 * Kleur (en doorzichtigheid)
 * Positie
 * Beweging (snelheid en richting)
-* rotatie
+* Rotatie
 * Aantal
 * Blijvend in beeld of niet
+* Input van het toetsenbord
+
+Probeer ook tekst, image, video, webcam en sound!
+Zie de voorbeeld-scripts in Processing onder het menu Bestand > Voorbeelden.
 
 {{< licentie rel="http://creativecommons.org/licenses/by-nc-sa/4.0/">}}
