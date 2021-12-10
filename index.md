@@ -55,7 +55,7 @@ quad(152, 124, 344, 80, 276, 252, 120, 304);
 vierhoek
 
 ### Andere vormen
-* `arc` halve cirkel
+* `arc(50, 50, 80, 80, PI);` halve cirkel
 * `curve` gebogen lijnen
 * `bezier` nog meer gebogen lijnen
 * `beginShape`, `vertex` en `endShape` complexe vormen
@@ -108,6 +108,9 @@ In verschillende variabelen kun je verschillende soorten informatie bewaren:
 * `string` een tekst
 * `char` een enkele letter
 * `color` een kleur
+
+* `int getal = 10;`
+* `float variabele1 = 3.01;`
 
 ## Vragen stellen
 
@@ -166,7 +169,7 @@ void draw() {
 Waarde (bijvoorbeeld de muispositie) ‘vertalen’ naar een ander bereik:  
 `float h = map(mouseX, 0, width, 40, 300);`
 
-## Afstand tot een bepaald punt
+## Afstand tot een bepaald punt met dist()
 
 {{< highlight javascript >}}
 void draw() {
@@ -203,6 +206,17 @@ void setup() {
 void draw() {
     // laat het plaatje zien
     image(foto, 0, 0);
+}
+{{< /highlight >}}
+
+## Golfbewegingen met sinus
+
+Gebruik sin() en cos() om golvende veranderingen te krijgen:
+{{< highlight javascript >}}
+float hoek = 0; // variabele void draw( ) {
+background(0);
+// sinus gebruiken als grootte circle(50, 50, sin(hoek)*100);
+// hoek een klein beetje veranderen hoek += 0.02;
 }
 {{< /highlight >}}
 
