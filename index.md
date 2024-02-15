@@ -4,7 +4,7 @@ date: 2021-12-08T22:23:08+01:00
 draft: false
 toc: true
 headercolor: "teal-background"
-taal: processing 
+onderwerp: Processing 
 ---
 
 Spiekbriefje met veelgebruikte Processing-instructies.
@@ -227,7 +227,7 @@ Dit zijn nog lang niet alle functies in Processing! Op https://processing.org/re
 Mooie voorbeelden van wat er allemaal kan met Processing zie je op
 * https://processing.org/examples
 * https://openprocessing.org
-* https://reddit.com/r/processing
+* https://reddit.com/r/processing/
 * http://generative-gestaltung.de/2/
 
 ## Probeer het!
